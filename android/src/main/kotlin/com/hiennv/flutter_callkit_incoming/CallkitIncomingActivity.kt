@@ -62,7 +62,7 @@ class CallkitIncomingActivity : Activity() {
         }
 
         fun getIntentEnded(context: Context) =
-                Intent("${context.packageName}.ACTION_ENDED_CALL_INCOMING")
+                Intent(ACTION_ENDED_CALL_INCOMING)
 
     }
 
